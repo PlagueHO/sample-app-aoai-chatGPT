@@ -11,15 +11,18 @@
             "version": "16",
             "nodeGypDependencies": false
         },
-        "ghcr.io/devcontainers/features/azure-cli:1.0.8": {}
+        "ghcr.io/devcontainers/features/azure-cli:1.0.8": {},
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
     },
     "customizations": {
         "vscode": {
             "extensions": [
-                "ms-azuretools.azure-dev",
-                "ms-azuretools.vscode-bicep",
-                "ms-python.python"
-            ]
+				"ms-azuretools.azure-dev",
+				"ms-azuretools.vscode-bicep",
+				"ms-python.python",
+				"ms-vscode-remote.remote-containers",
+				"ms-azuretools.vscode-docker"
+			]
         },
         "codespaces": {
             "openFiles": [
